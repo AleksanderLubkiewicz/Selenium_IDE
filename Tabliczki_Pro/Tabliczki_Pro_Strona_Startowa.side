@@ -1,0 +1,691 @@
+{
+  "id": "d5533a53-df75-45df-9edf-b0d0b1516821",
+  "version": "2.0",
+  "name": "Tabliczki_Pro_Strona_Startowa",
+  "url": "https://tabliczki.pro",
+  "tests": [{
+    "id": "f4be68c4-8d4c-44ff-a6bc-8ea9f8ca6787",
+    "name": "ASE-1[Strona Startowa]",
+    "commands": [{
+      "id": "7d07a3d9-1c47-4946-b606-0d6ab1e26aa2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d5e125b-1394-449f-a350-1836f24d059c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1310x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56fefdfb-4f5b-49b9-a991-65476073708e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki informacyjne Universal",
+      "targets": [
+        ["linkText=Tabliczki informacyjne Universal", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(1) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki informacyjne Universal')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-informacyjne-aluminiowe-universal/')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki informacyjne Universal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ee970c8-6dc6-4270-930c-4b97669465db",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki informacyjne aluminiowe Universal')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki informacyjne aluminiowe Universal"
+    }, {
+      "id": "6f7d6b0e-c69a-4d39-a090-742f1371a936",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48af0478-57a8-4061-994f-44a0e4518e8c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki info. Mini Univerasl",
+      "targets": [
+        ["linkText=Tabliczki info. Mini Univerasl", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(1) a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki info. Mini Univerasl')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-informacyjne-aluminiowe-mini-universal/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki info. Mini Univerasl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9b20d81-a1a1-4bba-9e68-23b05b7f5a3b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki informacyjne aluminiowe Mini Universal')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki informacyjne aluminiowe Mini Universal"
+    }, {
+      "id": "036f5399-73f7-4c71-adc5-864fbe9c0ca4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70a7fc27-8adc-46a9-a9d8-82f6c8067e06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki informacyjne Economy",
+      "targets": [
+        ["linkText=Tabliczki informacyjne Economy", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(1) a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki informacyjne Economy')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-economy/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki informacyjne Economy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f1deb71-b623-482d-912c-33e8fc35a73a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki informacyjne aluminiowe Economy')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki informacyjne aluminiowe Economy"
+    }, {
+      "id": "1edbc19e-07ff-4240-8ea4-5fafebde462a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25db119b-6089-4b04-85a2-afa7676c4205",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki informacyjne Rama",
+      "targets": [
+        ["linkText=Tabliczki informacyjne Rama", "linkText"],
+        ["css=.wpb_column:nth-child(1) > .vc_column-inner > .wpb_wrapper > .wpb_text_column a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki informacyjne Rama')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-rama/')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki informacyjne Rama')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36961956-9298-4f53-b93b-98f5db27980f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki informacyjne aluminiowe Rama')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki informacyjne aluminiowe Rama"
+    }, {
+      "id": "d7c70e1e-1151-4b17-90ae-d906a349469a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e915c6e3-2c65-463d-b2a0-57830ef43940",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki informacyjne Kolebkowe",
+      "targets": [
+        ["linkText=Tabliczki informacyjne Kolebkowe", "linkText"],
+        ["css=a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki informacyjne Kolebkowe')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-kolebkowe/')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki informacyjne Kolebkowe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b9d3fd-d575-4d11-84f9-041388e68b94",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki informacyjne aluminiowe Kolebkowe')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki informacyjne aluminiowe Kolebkowe"
+    }, {
+      "id": "c0570449-5307-45c1-8251-81881a96bac9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc7b66b2-965c-4a71-9c1a-c2d00819abb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki dystansowe",
+      "targets": [
+        ["linkText=Tabliczki dystansowe", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(2) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki dystansowe')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-dystansowe/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki dystansowe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf38e793-6961-4668-b257-0d4e08d324e7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki dystansowe')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki dystansowe"
+    }, {
+      "id": "4060c16e-c115-4f04-a89b-f21af08789cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe92ac06-e382-4e40-b830-adff85c8eea6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki grawerowane",
+      "targets": [
+        ["linkText=Tabliczki grawerowane", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(2) a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki grawerowane')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/h4/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-grawerowane/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/h4/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki grawerowane')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caf5eaab-a3b8-423b-b108-49de0e22adb0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki grawerowane')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki grawerowane"
+    }, {
+      "id": "413e239f-12e9-430b-8693-7a52acf6bf92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d1bf2e4-5cd4-426b-9714-9b63dd7a3d8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki parkingowe",
+      "targets": [
+        ["linkText=Tabliczki parkingowe", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(2) a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki parkingowe')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/h4/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-parkingowe/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/h4/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki parkingowe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "472ed7de-c548-4806-8d9a-8d689c0cb43a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tabliczki parkingowe')]", "xpath:innerText"]
+      ],
+      "value": "Tabliczki parkingowe"
+    }, {
+      "id": "b140bce3-2344-4fbf-8800-4ee9f3ed5e70",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbc5d102-0460-4fbb-9c5f-925dddc86d5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Piktogramy",
+      "targets": [
+        ["linkText=Piktogramy", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(2) a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Piktogramy')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/h4/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/piktogramy/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/h4/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Piktogramy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c0be4b7-91ea-4798-ab46-7ac51f7fecb0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Piktogramy')]", "xpath:innerText"]
+      ],
+      "value": "Piktogramy"
+    }, {
+      "id": "47771b37-27d8-49f2-b221-678a9b9794ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5480a8cc-ecc8-4504-9624-04328781af05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gabloty wewnętrzne",
+      "targets": [
+        ["linkText=Gabloty wewnętrzne", "linkText"],
+        ["css=.wpb_column:nth-child(2) .wpb_column:nth-child(1) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gabloty wewnętrzne')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tabliczki.pro/kategoria/wyposazenie-biura/gabloty-wewnetrzne/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gabloty wewnętrzne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98187aa2-8f18-43df-83a6-0b1fae58f8d1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Gabloty wewnętrzne')]", "xpath:innerText"]
+      ],
+      "value": "Gabloty wewnętrzne"
+    }, {
+      "id": "c04ce8ff-a97d-4d66-8982-dbef86d354d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c1c6735-a109-4c0a-8722-1dfac90f99ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tablice magnetyczne, suchościeralne",
+      "targets": [
+        ["linkText=Tablice magnetyczne, suchościeralne", "linkText"],
+        ["css=.wpb_column:nth-child(2) .wpb_column:nth-child(1) a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tablice magnetyczne, suchościeralne')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/h4/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tabliczki.pro/kategoria/wyposazenie-biura/tablice-magnetyczne-suchoscieralne/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/h4/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tablice magnetyczne, suchościeralne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e540ad-9344-4c4d-b6b9-e8883a96a6b4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tablice magnetyczne, suchościeralne')]", "xpath:innerText"]
+      ],
+      "value": "Tablice magnetyczne, suchościeralne"
+    }, {
+      "id": "4b36f6d8-52f5-4b26-b4c8-4a9a43ab4b36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff3a554d-6fce-4b05-91bd-8a5729b46ec1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tablice informacyjne",
+      "targets": [
+        ["linkText=Tablice informacyjne", "linkText"],
+        ["css=.wpb_column:nth-child(2) .wpb_column:nth-child(1) a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tablice informacyjne')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/h4/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tabliczki.pro/kategoria/wyposazenie-biura/tablice-informacyjne/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/h4/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tablice informacyjne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d163a08-d4d0-48b1-8c69-4d864d6e74cd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tablice informacyjne')]", "xpath:innerText"]
+      ],
+      "value": "Tablice informacyjne"
+    }, {
+      "id": "5f8fda0a-bc7c-4a50-86ed-8d6f22fbb846",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "368d13c5-61e2-4519-8775-ed5cc092d7e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tablice emaliowane",
+      "targets": [
+        ["linkText=Tablice emaliowane", "linkText"],
+        ["css=.wpb_column:nth-child(2) .wpb_column:nth-child(2) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tablice emaliowane')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tabliczki.pro/kategoria/wyposazenie-biura/tablice-emaliowane-urzedowe/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tablice emaliowane')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee6586b-7a1d-43c6-952c-25e26bff63fd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tablice emaliowane i urzędowe')]", "xpath:innerText"]
+      ],
+      "value": "Tablice emaliowane i urzędowe"
+    }, {
+      "id": "101b5adf-3c52-4fd1-aef0-f4b70e1de538",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "325b7657-e361-4199-92d3-03860623e17a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cokoły ze stali nierdzewnej",
+      "targets": [
+        ["linkText=Cokoły ze stali nierdzewnej", "linkText"],
+        ["css=.wpb_column:nth-child(2) .wpb_column:nth-child(2) a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cokoły ze stali nierdzewnej')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/wyposazenie-biura/cokoly-ze-stali-nierdzewnej/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cokoły ze stali nierdzewnej')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b35e6cf1-69f2-4421-8110-2766384c1b23",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Cokoły ze stali nierdzewnej')]", "xpath:innerText"]
+      ],
+      "value": "Cokoły ze stali nierdzewnej"
+    }, {
+      "id": "6e165d64-43c0-438c-85d3-28705a7a4c8a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e7f446-dc04-44f7-846a-998f91f493ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ramy zatrzaskowe OWZ",
+      "targets": [
+        ["linkText=Ramy zatrzaskowe OWZ", "linkText"],
+        ["css=.wpb_column:nth-child(2) .wpb_column:nth-child(2) a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ramy zatrzaskowe OWZ')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/wyposazenie-biura/ramy-zatrzaskowe-owz/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ramy zatrzaskowe OWZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7810daaa-3d4e-4eab-9f03-e5050d79cd41",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ramy zatrzaskowe OWZ')]", "xpath:innerText"]
+      ],
+      "value": "Ramy zatrzaskowe OWZ"
+    }, {
+      "id": "0be511b6-a4b3-4930-a198-e33b2b22c56d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d71bbd7d-e12d-4c67-b866-db4842d11db6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ramy podświetlane OWZ",
+      "targets": [
+        ["linkText=Ramy podświetlane OWZ", "linkText"],
+        ["css=.wpb_column:nth-child(2) .vc_row:nth-child(2) a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ramy podświetlane OWZ')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/wyposazenie-biura/ramy-podswietlane-zatrzaskowe/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div/div/div/div/h4/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ramy podświetlane OWZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e1bc15-1143-40c6-be81-01c68f036e52",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.woocommerce-products-header__title",
+      "targets": [
+        ["css=.woocommerce-products-header__title", "css:finder"],
+        ["xpath=//section[@id='content']/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ramy podświetlane zatrzaskowe')]", "xpath:innerText"]
+      ],
+      "value": "Ramy podświetlane zatrzaskowe"
+    }, {
+      "id": "94b5c41a-de40-4df1-9752-400661869d3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://tabliczki.pro/')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f4c290e0-f18f-4cc0-a8e1-89264bf133e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f4be68c4-8d4c-44ff-a6bc-8ea9f8ca6787"]
+  }],
+  "urls": ["https://tabliczki.pro/"],
+  "plugins": []
+}
