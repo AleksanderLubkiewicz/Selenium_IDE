@@ -4,4 +4,4 @@ Some tests in Selenium IDE
 Automatic test of the operation of links on the Tabliczki.pro home page.
 [https://tabliczki.pro]
 ## Legimi
-Automatic test of error information when filling out the registration form on the website https://www.legimi.pl/konto/zarejestruj/
+L_1 - Automatic test of error information when filling out the registration form on the website https://www.legimi.pl/konto/zarejestruj/
